@@ -1,0 +1,26 @@
+{
+  "name": "pa55w0rd",
+  "version": "1.0.0",
+  "description": "Password generator",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/knagurski/pa55w0rd.git"
+  },
+  "keywords": [
+    "password",
+    "generator"
+  ],
+  "author": "Kevin Nagurski <knagurski@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/knagurski/pa55w0rd/issues"
+  },
+  "homepage": "https://github.com/knagurski/pa55w0rd#readme",
+  "devDependencies": {
+    "prettier": "^1.19.1"
+  }
+}

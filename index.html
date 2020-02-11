@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Pa55w0rd - The Password Generator</title>
+    <script
+      type="module"
+      src="PasswordGenerator/PasswordConfig.js"
+      defer
+    ></script>
+    <script
+      type="module"
+      src="PasswordGenerator/PasswordOutput.js"
+      defer
+    ></script>
+    <link rel="stylesheet" href="typography.css">
+    <link rel="stylesheet" href="./pa55w0rd.css">
+  </head>
+  <body>
+    <main class="pa55w0rd">
+      <section class="pa55w0rd__config">
+        <header class="pa55w0rd__header">
+          <h1>Pa55w0rd</h1>
+          <h2>A little password generator</h2>
+        </header>
+        <password-config global-style="../typography.css"></password-config>
+      </section>
+      <section class="pa55w0rd__output">
+        <password-output global-style="../typography.css"></password-output>
+      </section>
+    </main>
+  </body>
+</html>
