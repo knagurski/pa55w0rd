@@ -1,0 +1,20 @@
+.pa55w0rd__output {
+  padding: 1rem;
+  background-color: var(--right-bg);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  &-field {
+    word-break: break-word;
+    font-size: 5rem;
+    text-align: center;
+    display: block;
+  }
+
+  &-copy-button {
+    float: right;
+    margin: 1rem;
+  }
+}

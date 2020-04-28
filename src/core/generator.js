@@ -13,7 +13,7 @@ const generators = {
 export const generatePassword = config => {
   let password = "";
   const chosenGenerators = Object.entries(generators)
-    .filter(([gen]) => config.generator.includes(gen))
+    .filter(([gen]) => config.generators.includes(gen))
     .map(([, fn]) => fn);
 
   while (password.length < config.length) {

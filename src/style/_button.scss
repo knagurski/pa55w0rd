@@ -1,0 +1,14 @@
+button {
+  border: 1px solid rgba(0,0,0,.2);
+  font-size: 1rem;
+  cursor: pointer;
+  background-color: white;
+  padding: 1em;
+  border-radius: .5em;
+  outline: none;
+  line-height: 1;
+
+  &:focus {
+    box-shadow: 0 0 0 3px hotpink;
+  }
+}

@@ -1,0 +1,24 @@
+@import "typography";
+@import "button";
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.pa55w0rd {
+  --left-bg: white;
+  --right-bg: lightgray;
+
+  display: grid;
+  grid-template: repeat(auto-fit, minmax(500px, 1fr)) / repeat(
+      auto-fit,
+      minmax(500px, 1fr)
+    );
+  min-height: 100vh;
+  min-width: 100vw;
+}
+
+@import "header";
+@import "config";
+@import "output";
