@@ -11,6 +11,7 @@ const generators = {
 };
 
 export const generatePassword = config => {
+  console.log(config);
   let password = "";
   const chosenGenerators = Object.entries(generators)
     .filter(([gen]) => config.generators.includes(gen))

@@ -1,5 +1,4 @@
-import React from "react";
-import ReactDOM from "react-dom";
-import App from "./components/App";
+import Vue from "vue";
+import App from "./components/App.vue";
 
-ReactDOM.render(<App />, document.querySelector(".pa55w0rd"));
+new Vue({ render: createElement => createElement(App) }).$mount(".pa55w0rd");
